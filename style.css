@@ -1,0 +1,88 @@
+/*
+    font-family: 'Nova Cut', cursive;
+    font-family: 'Press Start 2P', cursive;
+*/
+
+body {font-family:'Nova Cut', cursive;
+        font-size:18px;
+        color:#fff;
+        text-align:center;
+        background-size:cover;
+        background-repeat:no-repeat;}
+
+.wrapper {width: 80%;
+            margin: auto;}
+
+.title  {padding-top:50px;
+            padding-bottom:35px;}
+
+nav {font-size:0px;
+    display:inline-block;
+    padding-bottom:100px;}
+
+.cleric, .fighter, .mage, .thief {height:360px;
+                                    width:233px;
+                                    padding-top:50px;
+                                    padding-bottom:75px;
+                                    float:left;
+                                    transition:100ms;}
+
+.cleric         {background: url("images/hero/clericcrop.png") no-repeat;}
+.cleric:hover   {background: url("images/hero/clericgold.png") no-repeat;
+                    transform:scale(125%);}
+
+.fighter        {background: url("images/hero/fightercrop.png") no-repeat;}
+.fighter:hover  {background: url("images/hero/fightergold.png") no-repeat;
+                    transform:scale(125%);}
+
+.mage           {background: url("images/hero/magecrop.png") no-repeat;}
+.mage:hover     {background: url("images/hero/magegold.png") no-repeat;
+                    transform:scale(125%);}
+
+.thief          {background: url("images/hero/thiefcrop.png") no-repeat;}
+.thief:hover    {background: url("images/hero/thiefgold.png") no-repeat;
+                    transform:scale(125%);}
+
+header {margin-bottom: 20px;}
+
+.icongold {width:100px;}
+
+h1 {font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
+    line-height:40px;
+    margin:auto;
+    padding-top:25px;
+    padding-bottom:50px;}
+
+p {padding-bottom:50px;
+    line-height:30px;}
+
+ul, li {list-style:none;
+        display:inline;}
+
+footer {font-size:0px;
+        display:inline-block;
+        padding-bottom:100px;}
+
+.icon, .cicon, .ficon, .micon, .ticon {height:50px;
+                                        width:66px;
+                                        float:left;}
+
+.icon {background: url("images/icon/blankl.png") no-repeat;}
+.icon:hover {background: url("images/icon/home.png") no-repeat;}
+
+.cicon {background: url("images/icon/blankl.png") no-repeat;}
+.cicon:hover {background: url("images/icon/cicon.png") no-repeat;}
+
+.ficon {background: url("images/icon/blank.png") no-repeat;}
+.ficon:hover {background: url("images/icon/ficon.png") no-repeat;}
+
+.micon {background: url("images/icon/blankr.png") no-repeat;}
+.micon:hover {background: url("images/icon/micon.png") no-repeat;}
+
+.ticon {background: url("images/icon/blankr.png") no-repeat;}
+.ticon:hover {background: url("images/icon/ticon.png") no-repeat;}
+
+img {width: 100%;}
+
+a:hover {color: black;}
