@@ -20,28 +20,28 @@ nav {font-size:0px;
     display:inline-block;
     padding-bottom:100px;}
 
-.cleric, .fighter, .mage, .thief {height:360px;
-                                    width:233px;
-                                    padding-top:50px;
-                                    padding-bottom:75px;
-                                    float:left;
-                                    transition:100ms;}
+.clericcrop, .fightercrop, .magecrop, .thiefcrop {height:360px;
+                                                    width:233px;
+                                                    padding-top:50px;
+                                                    padding-bottom:75px;
+                                                    float:left;
+                                                    transition:100ms;}
 
-.cleric         {background: url("images/hero/clericcrop.png") no-repeat;}
-.cleric:hover   {background: url("images/hero/clericgold.png") no-repeat;
-                    transform:scale(125%);}
+.clericcrop         {background: url("images/hero/clericcrop.png") no-repeat;}
+.clericcrop:hover   {background: url("images/hero/clericgold.png") no-repeat;
+                        transform:scale(125%);}
 
-.fighter        {background: url("images/hero/fightercrop.png") no-repeat;}
-.fighter:hover  {background: url("images/hero/fightergold.png") no-repeat;
-                    transform:scale(125%);}
+.fightercrop        {background: url("images/hero/fightercrop.png") no-repeat;}
+.fightercrop:hover  {background: url("images/hero/fightergold.png") no-repeat;
+                        transform:scale(125%);}
 
-.mage           {background: url("images/hero/magecrop.png") no-repeat;}
-.mage:hover     {background: url("images/hero/magegold.png") no-repeat;
-                    transform:scale(125%);}
+.magecrop           {background: url("images/hero/magecrop.png") no-repeat;}
+.magecrop:hover     {background: url("images/hero/magegold.png") no-repeat;
+                        transform:scale(125%);}
 
-.thief          {background: url("images/hero/thiefcrop.png") no-repeat;}
-.thief:hover    {background: url("images/hero/thiefgold.png") no-repeat;
-                    transform:scale(125%);}
+.thiefcrop          {background: url("images/hero/thiefcrop.png") no-repeat;}
+.thiefcrop:hover    {background: url("images/hero/thiefgold.png") no-repeat;
+                        transform:scale(125%);}
 
 header {margin-bottom: 20px;}
 
